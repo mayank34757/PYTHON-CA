@@ -120,7 +120,7 @@ r2 = r2_score(y_actual, y_pred)
 print("Mean Squared Error:", round(mse, 2))
 print("R^2 Score:", round(r2, 2))
 
-# 📈 Plot: Actual vs Predicted Total Sales 
+# Plot: Actual vs Predicted Total Sales 
 plt.figure(figsize=(8, 6))
 plt.scatter(y_actual, y_pred, alpha=0.5, color='green')
 plt.plot([y_actual.min(), y_actual.max()], [y_actual.min(), y_actual.max()], 'r--', label='Perfect Prediction')
